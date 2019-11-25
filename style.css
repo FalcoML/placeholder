@@ -8,13 +8,40 @@ body{
     color: #f9f3f4;
     position: absolute;
     text-align: center;
-    top: 32%;
+    top: 40%;
     width: 100%;
     line-height: 0.4em;
 }
 
 .logo {
     height: 100px;
+}
+
+@import "compass/css3";
+
+html {
+  background: #0E3741;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  backface-visibility: hidden;
+  visibility:hidden;
+  z-index:1;
+}
+
+#wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index:2;
 }
 
 h1{
